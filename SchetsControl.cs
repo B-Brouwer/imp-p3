@@ -26,6 +26,7 @@ namespace SchetsEditor
         }
         private void teken(object o, PaintEventArgs pea)
         {   schets.Teken(pea.Graphics);
+            //Test
         }
         private void veranderAfmeting(object o, EventArgs ea)
         {   schets.VeranderAfmeting(this.ClientSize);
